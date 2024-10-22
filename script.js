@@ -35,11 +35,7 @@ function displayWeather(data, city) {
       <h3>Country: ${sys.country}</h3>
       <p>Temperature: ${main.temp}°C</p>
       <p>Pressure: ${main.pressure} Pa</p>
-      <p>Humidity: ${main.humidity}%</p>
-      <p>Wind Speed: ${wind.speed} m/s</p>
-      <p>Clouds: ${clouds.all} 	(0~1)</p>
-      <p>Condition: ${weather[0].description}</p>
-
+      
     `;
 
     weatherResult.innerHTML = forecastHTML;
